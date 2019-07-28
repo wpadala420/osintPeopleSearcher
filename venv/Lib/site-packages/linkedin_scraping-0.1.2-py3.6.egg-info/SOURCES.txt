@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+linkedin_scraping/__init__.py
+linkedin_scraping/cli.py
+linkedin_scraping/crawler.py
+linkedin_scraping/items.py
+linkedin_scraping/parser.py
+linkedin_scraping/spider.py
+linkedin_scraping.egg-info/PKG-INFO
+linkedin_scraping.egg-info/SOURCES.txt
+linkedin_scraping.egg-info/dependency_links.txt
+linkedin_scraping.egg-info/entry_points.txt
+linkedin_scraping.egg-info/not-zip-safe
+linkedin_scraping.egg-info/requires.txt
+linkedin_scraping.egg-info/top_level.txt

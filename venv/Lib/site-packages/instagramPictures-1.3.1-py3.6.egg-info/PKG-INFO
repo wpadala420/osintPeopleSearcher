@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: instagramPictures
+Version: 1.3.1
+Summary: Script for downloading pictures from instagram.com
+Home-page: https://github.com/fiterV/instagramPictures
+Author: Vadym Prokopets
+Author-email: vadym_prokopec@mail.ru
+License: MIT
+Description: UNKNOWN
+Keywords: instagram,pictures,download
+Platform: UNKNOWN
+Classifier: Intended Audience :: Customer Service
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: Utilities

@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+instagramPictures/__init__.py
+instagramPictures/main.py
+instagramPictures.egg-info/PKG-INFO
+instagramPictures.egg-info/SOURCES.txt
+instagramPictures.egg-info/dependency_links.txt
+instagramPictures.egg-info/entry_points.txt
+instagramPictures.egg-info/requires.txt
+instagramPictures.egg-info/top_level.txt

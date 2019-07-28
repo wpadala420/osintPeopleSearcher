@@ -1,0 +1,3 @@
+[console_scripts]
+instagramPictures = instagramPictures.main:main
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul class="people">
+  {% for item in list %}
+  <li>
+    <h2>{{ item.name + ' ' + item.surname }} </h2>
+    {% if item.dateOfBirth %}
+    <li>{{ 'Data urodzenia: ' + item.dateOfBirth }}</li>
+    {% endif %}
+    <li>imiona: </li>
+    <ul>
+    {% for n in item.names %}
+      <li>{{ n }}</li>
+    {% endfor %}
+    </ul>
+    <!--  New ul with class of 'courses' -->
+    <ul class='person'>
+      {% for i,j in item['instagram'].items() %}
+        {% if i == 'posts' %}
+        <ol>
+          {% for a in item['instagram'][i] %}
+          <li>
+            <div>
+              <img src="{{ a['url'] }}" width="600" height="400" />
+              <a >{{ 'data dodania: ' + a['date'] }}</a>
+              {% if a['user tagged'] %}
+              <a>{{ 'oznaczeni uzytkownicy: ' + a['user tagged']  }}</a>
+              {% endif %}
+              {% if a['hashtags'] %}
+              <a>{{ 'hashtagi: ' + a['hashtags'] }}</a>
+              {% endif %}
+              {% if a['localization'] %}
+              <a>{{ 'lokalizacja: ' + a['localization'] }}</a>
+              {% endif %}
+            </div>
+          </li>
+          {% endfor %}
+        </ol>
+        {% endif %}
+          {% if i == 'profile_photo' %}
+          <li><img src="{{ item['instagram'][i] }}" /></li>
+          {% endif %}
+          {% if i != 'profile_photo' and i != 'posts' %}
+          <li>{{ 'instagram - {}: {}  '.format(i,j) }}</li>
+          {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% if item.registries %}
+      <ul>
+        {% for it in item.registries %}
+        <li>
+          <ul>
+          {% for k,v in it.items() %}
+            <li>{{ '{} : {}'.format(k,v) }}</li>
+          {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+</body>
+</html>

@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: facebookHandler
+Version: 0.1
+Summary: A python library made with selenium to control a facebook account                 without the use of the offical API
+Home-page: https://github.com/ahmed-tounsi
+Author: Ahmed Tounsi
+Author-email: ahmeddottounsi@gmail.com
+License: MIT
+Download-URL: https://github.com/ahmed-tounsi/facebookHandler/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: facebook,selenium,facebook-bot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6

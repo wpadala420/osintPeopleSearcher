@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: MagicGoogle
+Version: 0.2.7
+Summary: A google search results crawler
+Home-page: https://github.com/howie6879/MagicGoogle/blob/master/README.md
+Author: Howie Hu
+Author-email: xiaozizayang@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cchardet
+Requires-Dist: pyquery (>=1.2.17)
+Requires-Dist: requests (>=2.12.4)
+
+UNKNOWN
+
+
